@@ -1,47 +1,175 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T02:50:25.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="dVYugC9xObVNkEwEd4dp" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T03:51:56.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="sGA7hLpLz7kNUva-ARio" version="15.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#B0E3E6" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="300" as="geometry" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="主动方" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="730" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;labelBackgroundColor=#B0E3E6;strokeColor=#182E3E;fontColor=#1A1A1A;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="dbKAwPJHfRHvWD25How0-9" value="3.执行业务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+            <mxPoint x="55" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="210" />
+            </Array>
+            <mxPoint x="55.346751770605124" y="270.612611751294" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        <mxCell id="dbKAwPJHfRHvWD25How0-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="45" y="700" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="300" as="geometry" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="可靠消息服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="350" y="80" width="100" height="880" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;labelBackgroundColor=#B0E3E6;strokeColor=#182E3E;fontColor=#1A1A1A;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="dbKAwPJHfRHvWD25How0-5" value="2.更新状态为&lt;br&gt;“待确认”" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="236" as="targetPoint" />
+            <mxPoint x="55" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="90" />
+            </Array>
+            <mxPoint x="55.346751770605124" y="150.61261175129403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="dispatch" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;labelBackgroundColor=#B0E3E6;strokeColor=#182E3E;fontColor=#1A1A1A;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="dbKAwPJHfRHvWD25How0-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="260" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-17" value="7.1 MQ发送消息给被动方" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;labelBackgroundColor=#FFFFFF;strokeColor=#182E3E;fontColor=#1A1A1A;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="490" as="sourcePoint" />
+            <mxPoint x="280" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-23" value="6.投递消息给MQ&lt;br&gt;并且更新状态为“已发送”" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="399.39" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="399.39" />
+            </Array>
+            <mxPoint x="55.346751770605124" y="460.002611751294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="480" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="700" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-29" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="800" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-30" value="T2. 定时任务轮询“待发送”消息&lt;br&gt;进行MQ消息投递补偿" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="799.3899999999999" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="799.39" />
+            </Array>
+            <mxPoint x="55.346751770605124" y="860.0026117512939" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="880" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-32" value="T3. 定时任务轮询“已发送”消息&lt;br&gt;重新投递消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="879.9999999999999" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="880" />
+            </Array>
+            <mxPoint x="60.346751770605124" y="940.6126117512939" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-35" value="8. 更新状态为“已完成”" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="618.3899999999999" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="618.39" />
+            </Array>
+            <mxPoint x="55.346751770605124" y="679.0026117512939" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="1.发送“待确认”消息 " style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;labelBackgroundColor=#FFFFFF;strokeColor=#182E3E;fontColor=#1A1A1A;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="callback" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;labelBackgroundColor=#B0E3E6;strokeColor=#182E3E;fontColor=#1A1A1A;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-4" edge="1">
+        <mxCell id="dbKAwPJHfRHvWD25How0-1" value="被动方" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="590" y="80" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#F08E81;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="dbKAwPJHfRHvWD25How0-1">
+          <mxGeometry x="45" y="480" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-21" value="7.2 处理业务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="dbKAwPJHfRHvWD25How0-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="55" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="500" />
+            </Array>
+            <mxPoint x="55.346751770605124" y="560.612611751294" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-10" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;shadow=0;strokeWidth=1;labelBackgroundColor=#B0E3E6;strokeColor=#182E3E;fontColor=#1A1A1A;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-4" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="dbKAwPJHfRHvWD25How0-8" value="成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="257" as="targetPoint" />
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="180" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-11" value="4.发送“确认”消息 " style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;labelBackgroundColor=#FFFFFF;strokeColor=#182E3E;fontColor=#1A1A1A;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="370.0000000000001" as="sourcePoint" />
+            <mxPoint x="390" y="370.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-12" value="5.更新状态为&lt;br&gt;“待发送”" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="440" y="380" />
+            </Array>
+            <mxPoint x="410.3467517706051" y="440.612611751294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-13" value="成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="180" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-22" value="7.3 ACK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=#FFFFFF;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="650" as="sourcePoint" />
+            <mxPoint x="410" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-27" value="T1. 定时任务轮询“待确认”事务" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#FFFFFF;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="399.5" y="782" as="sourcePoint" />
+            <mxPoint x="169.5" y="782" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="782" />
+              <mxPoint x="200" y="782" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-28" value="返回事务执行的结果“确认\取消”" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=#FFFFFF;fontColor=#1A1A1A;strokeColor=#182E3E;" edge="1" parent="1" source="dbKAwPJHfRHvWD25How0-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="755" as="sourcePoint" />
+            <mxPoint x="399.5" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbKAwPJHfRHvWD25How0-33" value="7.4 发送业务处理成功消息" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;labelBackgroundColor=#FFFFFF;fontColor=#1A1A1A;strokeColor=#182E3E;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="680" as="sourcePoint" />
+            <mxPoint x="410" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
